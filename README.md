@@ -1,3 +1,11 @@
+# CREAR PACKAGE
+
+## Genera el package en target
+
+```bash
+$ ./mvnw clean package
+```
+
 # EJECUTAR CON DOCKER
 
 ## Crear build
