@@ -29,5 +29,5 @@ sudo docker network create springcloud
 ## Levantar contenedor en puerto externo:virtual / nombre maquina / red / imagen apartir de la que se crea
 
 ```docker
-sudo docker run -p 8888:8888 --name spring-config --network springcloud config-server:v1
+sudo docker run -p 8888:8888 --name config-server --network springcloud config-server:v1
 ```
